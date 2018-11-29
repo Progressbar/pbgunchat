@@ -94,9 +94,7 @@
 			</div>
 		</div>
 
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script src="./gun.js"></script>
-		<script src="./nts.js"></script>
+		<script src="https://cdn.jsdelivr.net/combine/npm/gun@0.9.99999,npm/gun@0.9.99999/nts.min.js,npm/jquery@3.3.1"></script>
 		<script>
 			var gun = Gun(location.origin + '/gun');
 			var chat = gun.get('converse/' + location.hash.slice(1));
